@@ -13,9 +13,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 load_dotenv()
 
 # --- Configuration & API Keys ---
-TELEGRAM_BOT_TOKEN = os.getenv("8197544295:AAGIOkUqDN7kyp_j0uBn rIrlG1H42wRgxZw")
-GOOGLE_API_KEY = os.getenv("AIzaSyCqkYJ8rnDZjEISXyc7an60CZ5g8maq8G4")
-VIRUSTOTAL_API_KEY = os.getenv("f4f420306883756f97ef1805117f31dd616def5accfe7afa9f38fb97c5b50f99")
+TELEGRAM_BOT_TOKEN = os.getenv("")
+GOOGLE_API_KEY = os.getenv("")
+VIRUSTOTAL_API_KEY = os.getenv("")
 
 # --- Logging Setup ---
 # Configure logging to monitor bot activity and diagnose issues
